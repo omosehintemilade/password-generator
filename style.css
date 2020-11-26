@@ -1,0 +1,89 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background-color: #3b3b98;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-family: 'Montserrat', sans-serif;
+}
+
+.container {
+  background-color: #23235b;
+  padding: 20px;
+  width: 300px;
+}
+
+.container h2 {
+  text-align: center;
+  color: white;
+}
+
+.screen-icon {
+  background-color: #151537;
+  height: 40px;
+  color: white;
+  padding: 0px 0px 0 10px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.form-password {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  overflow: hidden;
+  color: white;
+  padding: 5px 0px;
+}
+
+.form-password form {
+  width: 65px;
+}
+
+.form-password form input {
+  width: 65px;
+  padding: 3px;
+  height: 20px;
+  outline: none;
+}
+
+.icon-btn {
+  background-color: #3b3b98;
+  width: 40px;
+  height: 40px;
+  outline: none;
+  border: transparent;
+}
+
+.icon-btn .fa {
+  color: white;
+  font-size: 25px;
+}
+
+.flex {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 5px 0px;
+  color: white;
+}
+
+.button {
+  color: white;
+  text-align: center;
+  background-color: #3b3b98;
+  width: 100%;
+  padding: 5px 0;
+  margin: 10px 0;
+  font-size: 18px;
+  border: transparent;
+  outline: none;
+}
+/*# sourceMappingURL=style.css.map */

@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>passwordgenerator.com | Generate Password</title>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <div class="container">
+        <h2>Password Generator</h2>
+        <div class="screen-icon">
+            <div class="screen"></div>
+            <button class="icon-btn">
+            <i class="fa fa-clipboard" aria-hidden="true"></i>
+            </button>
+        </div>
+        <div class="form-password">
+            <p>Password length</p>
+            <form action="#" method="POST">
+                <input type="number" id="length" min="4" max="20" autocomplete="off" value="10">
+            </form>
+        </div>
+        <div class="flex uppercase">
+            <label for="uppercase">Include uppercase letters</label>
+            <input id="uppercase" type="checkbox" checked>
+        </div>
+        <div class="flex lowercase">
+            <label for="lowercase">Include lowercase letters</label>
+            <input id="lowercase" type="checkbox" checked>
+        </div>
+        <div class="flex numbers">
+            <label for="numbers">Include numbers</label>
+            <input id="numbers" type="checkbox" checked>
+        </div>
+        <div class="flex symbols">
+            <label for="numbers">Include symbols</label>
+            <input id="symbols" type="checkbox" checked>
+        </div>
+        <button class="button">Generate password</button>
+
+
+    </div>
+
+
+    <script src="main.js"></script>
+</body>
+
+</html>
