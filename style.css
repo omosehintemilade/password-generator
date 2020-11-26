@@ -22,16 +22,18 @@ body {
 .container h2 {
   text-align: center;
   color: white;
+  margin: 5px 0px;
 }
 
 .screen-icon {
   background-color: #151537;
   height: 40px;
   color: white;
-  padding: 0px 0px 0 10px;
+  padding: 0px 5px 0 10px;
   display: flex;
   align-items: center;
   justify-content: space-between;
+  margin: 10px 0px;
 }
 
 .form-password {
@@ -56,15 +58,15 @@ body {
 
 .icon-btn {
   background-color: #3b3b98;
-  width: 40px;
-  height: 40px;
+  width: 35px;
+  height: 35px;
   outline: none;
   border: transparent;
 }
 
 .icon-btn .fa {
   color: white;
-  font-size: 25px;
+  font-size: 20px;
 }
 
 .flex {
