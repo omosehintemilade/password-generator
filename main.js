@@ -77,9 +77,11 @@ function generatePasswordBackend(lower, upper, number, symbols, passwordLength) 
     let finalPassword
     if (totalChecked === 0) {
         return finalPassword = 'please check one or more boxes'
-
     }
-
+    if (passwordLength > 20) {
+        alert('20 is the maximum number of password that can be generated')
+        return finalPassword = ''
+    }
     for (let i = 0; i < passwordLength; i += totalChecked) {
         totalCheckedArray.forEach(item => {
             const functionName = Object.keys(item)[0]
